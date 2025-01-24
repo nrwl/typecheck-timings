@@ -1514,6 +1514,9 @@
     },
     {
       "path": "./packages/lib-500"
+    },
+    {
+      "path": "./packages/huge-lib"
     }
   ]
 }

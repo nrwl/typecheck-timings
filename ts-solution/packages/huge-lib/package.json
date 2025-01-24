@@ -1,0 +1,13 @@
+{
+  "name": "@acme/huge-lib",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
+  "private": true,
+  "nx": {
+    "sourceRoot": "packages/huge-lib/src",
+    "projectType": "library",
+    "name": "huge-lib"
+  }
+}
