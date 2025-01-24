@@ -3,9 +3,6 @@
   "include": [],
   "references": [
     {
-      "path": "../../packages/huge-lib"
-    },
-    {
       "path": "../../packages/nested-1-2"
     },
     {

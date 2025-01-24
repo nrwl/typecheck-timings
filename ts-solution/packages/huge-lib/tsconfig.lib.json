@@ -1,7 +1,7 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "out-tsc/lib-1",
+    "outDir": "out-tsc/huge-lib",
     "types": [
       "node",
       "@nx/react/typings/cssmodule.d.ts",
@@ -10,9 +10,11 @@
     "rootDir": "src",
     "jsx": "react-jsx",
     "module": "esnext",
-    "moduleResolution": "bundler"
+    "moduleResolution": "bundler",
+    "tsBuildInfoFile": "out-tsc/huge-lib/tsconfig.lib.tsbuildinfo"
   },
   "exclude": [
+    "out-tsc",
     "dist",
     "jest.config.ts",
     "src/**/*.spec.ts",
