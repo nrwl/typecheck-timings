@@ -501,6 +501,7 @@ const Lib498 = React.lazy(() => import('@acme/lib-498'));
 const Lib499 = React.lazy(() => import('@acme/lib-499'));
 const Lib500 = React.lazy(() => import('@acme/lib-500'));
 const Nested1 = React.lazy(() => import('@acme/nested-1'));
+const HugeLib = React.lazy(() => import('@acme/huge-lib'));
 
 export function App() {
   return (
@@ -2009,6 +2010,9 @@ export function App() {
         <li>
           <Link to="/nested-1">Nested 1</Link>
         </li>
+        <li>
+          <Link to="/huge-lib">Huge Lib</Link>
+        </li>
       </ul>
       <Routes>
         <Route index element={<Lib1 />} />
@@ -2512,6 +2516,7 @@ export function App() {
         <Route path="lib-499" element={<Lib499 />} />
         <Route path="lib-500" element={<Lib500 />} />
         <Route path="nested-1" element={<Nested1 />} />
+        <Route path="huge-lib" element={<HugeLib />} />
       </Routes>
     </>
   );
